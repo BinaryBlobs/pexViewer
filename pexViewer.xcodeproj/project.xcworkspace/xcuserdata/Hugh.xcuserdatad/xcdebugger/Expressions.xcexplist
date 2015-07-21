@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[pexViewerPlugIn showPopover:]:pexViewerPlugIn.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.popController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__28-[pexViewer initWithBundle:]_block_invoke:pexViewer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[pexViewer onFileChangeNotification:]:pexViewer.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[pexViewerPlugIn onFileChangeNotification:]:pexViewerPlugIn.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[pexViewerPlugIn instantiatePopover]:pexViewerPlugIn.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.popController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

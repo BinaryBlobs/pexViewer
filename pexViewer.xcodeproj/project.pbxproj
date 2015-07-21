@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5AA28B1B5D9C58009F3A65 /* TBXMLParticleAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5AA28A1B5D9C58009F3A65 /* TBXMLParticleAdditions.m */; };
+		1E7FECCA1B55AD73007B7428 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FECC81B55AD73007B7428 /* TBXML.m */; };
+		1E7FECCC1B55B0AF007B7428 /* Confetti.pex in Resources */ = {isa = PBXBuildFile; fileRef = 1E7FECCB1B55B0AF007B7428 /* Confetti.pex */; };
+		1E7FECCF1B55B3F0007B7428 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FECCD1B55B3F0007B7428 /* NSDataAdditions.m */; };
+		1E7FECD11B55B483007B7428 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7FECD01B55B483007B7428 /* libz.dylib */; };
+		1E7FECD51B55BA7E007B7428 /* popoverContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E7FECD41B55BA7E007B7428 /* popoverContentView.xib */; };
+		1E7FECD81B55BB63007B7428 /* popoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FECD71B55BB63007B7428 /* popoverViewController.m */; };
+		1E7FECDC1B568E62007B7428 /* NSObject+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7FECDB1B568E62007B7428 /* NSObject+Blocks.m */; };
+		1EB2A5E81B5543B3004BF07B /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB2A5E71B5543B3004BF07B /* AppKit.framework */; };
+		1EB2A5EA1B5543B3004BF07B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB2A5E91B5543B3004BF07B /* Foundation.framework */; };
+		1EB2A5EF1B5543B3004BF07B /* pexViewer.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 1EB2A5EE1B5543B3004BF07B /* pexViewer.xcscheme */; };
+		1EB2A5F21B5543B3004BF07B /* pexViewerPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB2A5F11B5543B3004BF07B /* pexViewerPlugIn.m */; };
+		1EB2A5F51B5543B3004BF07B /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB2A5F41B5543B3004BF07B /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E5AA2891B5D9C58009F3A65 /* TBXMLParticleAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBXMLParticleAdditions.h; path = TBXML/TBXMLParticleAdditions.h; sourceTree = "<group>"; };
+		1E5AA28A1B5D9C58009F3A65 /* TBXMLParticleAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBXMLParticleAdditions.m; path = TBXML/TBXMLParticleAdditions.m; sourceTree = "<group>"; };
+		1E7FEC9E1B554DAC007B7428 /* DBGBreakpointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBGBreakpointAnnotation.h; path = "Xcode Headers/DBGBreakpointAnnotation.h"; sourceTree = "<group>"; };
+		1E7FEC9F1B554DAC007B7428 /* DBGBreakpointAnnotationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBGBreakpointAnnotationProvider.h; path = "Xcode Headers/DBGBreakpointAnnotationProvider.h"; sourceTree = "<group>"; };
+		1E7FECA01B554DAC007B7428 /* DVTAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTAnnotation.h; path = "Xcode Headers/DVTAnnotation.h"; sourceTree = "<group>"; };
+		1E7FECA11B554DAC007B7428 /* DVTAnnotationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTAnnotationManager.h; path = "Xcode Headers/DVTAnnotationManager.h"; sourceTree = "<group>"; };
+		1E7FECA21B554DAC007B7428 /* DVTAnnotationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTAnnotationProvider.h; path = "Xcode Headers/DVTAnnotationProvider.h"; sourceTree = "<group>"; };
+		1E7FECA31B554DAC007B7428 /* DVTCompletingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTCompletingTextView.h; path = "Xcode Headers/DVTCompletingTextView.h"; sourceTree = "<group>"; };
+		1E7FECA41B554DAC007B7428 /* DVTDocumentLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTDocumentLocation.h; path = "Xcode Headers/DVTDocumentLocation.h"; sourceTree = "<group>"; };
+		1E7FECA51B554DAC007B7428 /* DVTFindResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTFindResult.h; path = "Xcode Headers/DVTFindResult.h"; sourceTree = "<group>"; };
+		1E7FECA61B554DAC007B7428 /* DVTFoldingLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTFoldingLayoutManager.h; path = "Xcode Headers/DVTFoldingLayoutManager.h"; sourceTree = "<group>"; };
+		1E7FECA71B554DAC007B7428 /* DVTFoldingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTFoldingManager.h; path = "Xcode Headers/DVTFoldingManager.h"; sourceTree = "<group>"; };
+		1E7FECA81B554DAC007B7428 /* DVTFoldingManagerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DVTFoldingManagerDelegate-Protocol.h"; path = "Xcode Headers/DVTFoldingManagerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		1E7FECA91B554DAC007B7428 /* DVTFontAndColorTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTFontAndColorTheme.h; path = "Xcode Headers/DVTFontAndColorTheme.h"; sourceTree = "<group>"; };
+		1E7FECAA1B554DAC007B7428 /* DVTInvalidation-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DVTInvalidation-Protocol.h"; path = "Xcode Headers/DVTInvalidation-Protocol.h"; sourceTree = "<group>"; };
+		1E7FECAB1B554DAC007B7428 /* DVTLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTLayoutManager.h; path = "Xcode Headers/DVTLayoutManager.h"; sourceTree = "<group>"; };
+		1E7FECAC1B554DAC007B7428 /* DVTMessageBubbleAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTMessageBubbleAnnotation.h; path = "Xcode Headers/DVTMessageBubbleAnnotation.h"; sourceTree = "<group>"; };
+		1E7FECAD1B554DAC007B7428 /* DVTPointerArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTPointerArray.h; path = "Xcode Headers/DVTPointerArray.h"; sourceTree = "<group>"; };
+		1E7FECAE1B554DAC007B7428 /* DVTPreferenceSet-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DVTPreferenceSet-Protocol.h"; path = "Xcode Headers/DVTPreferenceSet-Protocol.h"; sourceTree = "<group>"; };
+		1E7FECAF1B554DAC007B7428 /* DVTPreferenceSetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTPreferenceSetManager.h; path = "Xcode Headers/DVTPreferenceSetManager.h"; sourceTree = "<group>"; };
+		1E7FECB01B554DAC007B7428 /* DVTSourceLanguageSourceModelService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTSourceLanguageSourceModelService.h; path = "Xcode Headers/DVTSourceLanguageSourceModelService.h"; sourceTree = "<group>"; };
+		1E7FECB11B554DAC007B7428 /* DVTSourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTSourceModel.h; path = "Xcode Headers/DVTSourceModel.h"; sourceTree = "<group>"; };
+		1E7FECB21B554DAC007B7428 /* DVTSourceModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTSourceModelItem.h; path = "Xcode Headers/DVTSourceModelItem.h"; sourceTree = "<group>"; };
+		1E7FECB31B554DAC007B7428 /* DVTSourceNodeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTSourceNodeTypes.h; path = "Xcode Headers/DVTSourceNodeTypes.h"; sourceTree = "<group>"; };
+		1E7FECB41B554DAC007B7428 /* DVTSourceTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTSourceTextView.h; path = "Xcode Headers/DVTSourceTextView.h"; sourceTree = "<group>"; };
+		1E7FECB51B554DAC007B7428 /* DVTTextAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTTextAnnotation.h; path = "Xcode Headers/DVTTextAnnotation.h"; sourceTree = "<group>"; };
+		1E7FECB61B554DAC007B7428 /* DVTTextDocumentLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTTextDocumentLocation.h; path = "Xcode Headers/DVTTextDocumentLocation.h"; sourceTree = "<group>"; };
+		1E7FECB71B554DAC007B7428 /* DVTTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTTextStorage.h; path = "Xcode Headers/DVTTextStorage.h"; sourceTree = "<group>"; };
+		1E7FECB81B554DAC007B7428 /* DVTTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTTextView.h; path = "Xcode Headers/DVTTextView.h"; sourceTree = "<group>"; };
+		1E7FECB91B554DAC007B7428 /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTViewController.h; path = "Xcode Headers/DVTViewController.h"; sourceTree = "<group>"; };
+		1E7FECBA1B554DAC007B7428 /* IDEBreakpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEBreakpoint.h; path = "Xcode Headers/IDEBreakpoint.h"; sourceTree = "<group>"; };
+		1E7FECBB1B554DAC007B7428 /* IDEBuildIssueAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEBuildIssueAnnotation.h; path = "Xcode Headers/IDEBuildIssueAnnotation.h"; sourceTree = "<group>"; };
+		1E7FECBC1B554DAC007B7428 /* IDEBuildIssueErrorAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEBuildIssueErrorAnnotation.h; path = "Xcode Headers/IDEBuildIssueErrorAnnotation.h"; sourceTree = "<group>"; };
+		1E7FECBD1B554DAC007B7428 /* IDEBuildIssueWarningAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEBuildIssueWarningAnnotation.h; path = "Xcode Headers/IDEBuildIssueWarningAnnotation.h"; sourceTree = "<group>"; };
+		1E7FECBE1B554DAC007B7428 /* IDEEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEEditor.h; path = "Xcode Headers/IDEEditor.h"; sourceTree = "<group>"; };
+		1E7FECBF1B554DAC007B7428 /* IDEEditorDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEEditorDocument.h; path = "Xcode Headers/IDEEditorDocument.h"; sourceTree = "<group>"; };
+		1E7FECC01B554DAC007B7428 /* IDEFileBreakpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEFileBreakpoint.h; path = "Xcode Headers/IDEFileBreakpoint.h"; sourceTree = "<group>"; };
+		1E7FECC11B554DAC007B7428 /* IDEFileTextSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEFileTextSettings.h; path = "Xcode Headers/IDEFileTextSettings.h"; sourceTree = "<group>"; };
+		1E7FECC21B554DAC007B7428 /* IDEIssueAnnotationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEIssueAnnotationProvider.h; path = "Xcode Headers/IDEIssueAnnotationProvider.h"; sourceTree = "<group>"; };
+		1E7FECC31B554DAC007B7428 /* IDESourceCodeDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDESourceCodeDocument.h; path = "Xcode Headers/IDESourceCodeDocument.h"; sourceTree = "<group>"; };
+		1E7FECC41B554DAC007B7428 /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDESourceCodeEditor.h; path = "Xcode Headers/IDESourceCodeEditor.h"; sourceTree = "<group>"; };
+		1E7FECC51B554DAC007B7428 /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDESourceCodeEditorContainerView.h; path = "Xcode Headers/IDESourceCodeEditorContainerView.h"; sourceTree = "<group>"; };
+		1E7FECC61B554DAC007B7428 /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEViewController.h; path = "Xcode Headers/IDEViewController.h"; sourceTree = "<group>"; };
+		1E7FECC81B55AD73007B7428 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBXML.m; path = TBXML/TBXML.m; sourceTree = "<group>"; };
+		1E7FECC91B55AD73007B7428 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBXML.h; path = TBXML/TBXML.h; sourceTree = "<group>"; };
+		1E7FECCB1B55B0AF007B7428 /* Confetti.pex */ = {isa = PBXFileReference; explicitFileType = text.xml; fileEncoding = 4; path = Confetti.pex; sourceTree = "<group>"; };
+		1E7FECCD1B55B3F0007B7428 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataAdditions.m; path = TBXML/NSDataAdditions.m; sourceTree = "<group>"; };
+		1E7FECCE1B55B3F0007B7428 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDataAdditions.h; path = TBXML/NSDataAdditions.h; sourceTree = "<group>"; };
+		1E7FECD01B55B483007B7428 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1E7FECD41B55BA7E007B7428 /* popoverContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = popoverContentView.xib; path = ../popoverContentView.xib; sourceTree = "<group>"; };
+		1E7FECD61B55BB63007B7428 /* popoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popoverViewController.h; sourceTree = "<group>"; };
+		1E7FECD71B55BB63007B7428 /* popoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popoverViewController.m; sourceTree = "<group>"; };
+		1E7FECDA1B568E62007B7428 /* NSObject+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Blocks.h"; sourceTree = "<group>"; };
+		1E7FECDB1B568E62007B7428 /* NSObject+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Blocks.m"; sourceTree = "<group>"; };
+		1EB2A5E41B5543B3004BF07B /* pexViewer.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pexViewer.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB2A5E71B5543B3004BF07B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1EB2A5E91B5543B3004BF07B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		1EB2A5ED1B5543B3004BF07B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EB2A5EE1B5543B3004BF07B /* pexViewer.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = pexViewer.xcscheme; path = pexViewer.xcodeproj/xcshareddata/xcschemes/pexViewer.xcscheme; sourceTree = SOURCE_ROOT; };
+		1EB2A5F01B5543B3004BF07B /* pexViewerPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pexViewerPlugIn.h; sourceTree = "<group>"; };
+		1EB2A5F11B5543B3004BF07B /* pexViewerPlugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pexViewerPlugIn.m; sourceTree = "<group>"; };
+		1EB2A5F31B5543B3004BF07B /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		1EB2A5F41B5543B3004BF07B /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EB2A5E21B5543B2004BF07B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7FECD11B55B483007B7428 /* libz.dylib in Frameworks */,
+				1EB2A5E81B5543B3004BF07B /* AppKit.framework in Frameworks */,
+				1EB2A5EA1B5543B3004BF07B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E7FEC9D1B554D95007B7428 /* XCode Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1E7FEC9E1B554DAC007B7428 /* DBGBreakpointAnnotation.h */,
+				1E7FEC9F1B554DAC007B7428 /* DBGBreakpointAnnotationProvider.h */,
+				1E7FECA01B554DAC007B7428 /* DVTAnnotation.h */,
+				1E7FECA11B554DAC007B7428 /* DVTAnnotationManager.h */,
+				1E7FECA21B554DAC007B7428 /* DVTAnnotationProvider.h */,
+				1E7FECA31B554DAC007B7428 /* DVTCompletingTextView.h */,
+				1E7FECA41B554DAC007B7428 /* DVTDocumentLocation.h */,
+				1E7FECA51B554DAC007B7428 /* DVTFindResult.h */,
+				1E7FECA61B554DAC007B7428 /* DVTFoldingLayoutManager.h */,
+				1E7FECA71B554DAC007B7428 /* DVTFoldingManager.h */,
+				1E7FECA81B554DAC007B7428 /* DVTFoldingManagerDelegate-Protocol.h */,
+				1E7FECA91B554DAC007B7428 /* DVTFontAndColorTheme.h */,
+				1E7FECAA1B554DAC007B7428 /* DVTInvalidation-Protocol.h */,
+				1E7FECAB1B554DAC007B7428 /* DVTLayoutManager.h */,
+				1E7FECAC1B554DAC007B7428 /* DVTMessageBubbleAnnotation.h */,
+				1E7FECAD1B554DAC007B7428 /* DVTPointerArray.h */,
+				1E7FECAE1B554DAC007B7428 /* DVTPreferenceSet-Protocol.h */,
+				1E7FECAF1B554DAC007B7428 /* DVTPreferenceSetManager.h */,
+				1E7FECB01B554DAC007B7428 /* DVTSourceLanguageSourceModelService.h */,
+				1E7FECB11B554DAC007B7428 /* DVTSourceModel.h */,
+				1E7FECB21B554DAC007B7428 /* DVTSourceModelItem.h */,
+				1E7FECB31B554DAC007B7428 /* DVTSourceNodeTypes.h */,
+				1E7FECB41B554DAC007B7428 /* DVTSourceTextView.h */,
+				1E7FECB51B554DAC007B7428 /* DVTTextAnnotation.h */,
+				1E7FECB61B554DAC007B7428 /* DVTTextDocumentLocation.h */,
+				1E7FECB71B554DAC007B7428 /* DVTTextStorage.h */,
+				1E7FECB81B554DAC007B7428 /* DVTTextView.h */,
+				1E7FECB91B554DAC007B7428 /* DVTViewController.h */,
+				1E7FECBA1B554DAC007B7428 /* IDEBreakpoint.h */,
+				1E7FECBB1B554DAC007B7428 /* IDEBuildIssueAnnotation.h */,
+				1E7FECBC1B554DAC007B7428 /* IDEBuildIssueErrorAnnotation.h */,
+				1E7FECBD1B554DAC007B7428 /* IDEBuildIssueWarningAnnotation.h */,
+				1E7FECBE1B554DAC007B7428 /* IDEEditor.h */,
+				1E7FECBF1B554DAC007B7428 /* IDEEditorDocument.h */,
+				1E7FECC01B554DAC007B7428 /* IDEFileBreakpoint.h */,
+				1E7FECC11B554DAC007B7428 /* IDEFileTextSettings.h */,
+				1E7FECC21B554DAC007B7428 /* IDEIssueAnnotationProvider.h */,
+				1E7FECC31B554DAC007B7428 /* IDESourceCodeDocument.h */,
+				1E7FECC41B554DAC007B7428 /* IDESourceCodeEditor.h */,
+				1E7FECC51B554DAC007B7428 /* IDESourceCodeEditorContainerView.h */,
+				1E7FECC61B554DAC007B7428 /* IDEViewController.h */,
+			);
+			name = "XCode Headers";
+			sourceTree = "<group>";
+		};
+		1E7FECC71B55AD65007B7428 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				1E5AA2891B5D9C58009F3A65 /* TBXMLParticleAdditions.h */,
+				1E5AA28A1B5D9C58009F3A65 /* TBXMLParticleAdditions.m */,
+				1E7FECCD1B55B3F0007B7428 /* NSDataAdditions.m */,
+				1E7FECCE1B55B3F0007B7428 /* NSDataAdditions.h */,
+				1E7FECC81B55AD73007B7428 /* TBXML.m */,
+				1E7FECC91B55AD73007B7428 /* TBXML.h */,
+			);
+			name = TBXML;
+			sourceTree = "<group>";
+		};
+		1E7FECD91B568E46007B7428 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1E7FECDA1B568E62007B7428 /* NSObject+Blocks.h */,
+				1E7FECDB1B568E62007B7428 /* NSObject+Blocks.m */,
+				1EB2A5F31B5543B3004BF07B /* NSObject_Extension.h */,
+				1EB2A5F41B5543B3004BF07B /* NSObject_Extension.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		1E7FECE31B5736F4007B7428 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E7FECD41B55BA7E007B7428 /* popoverContentView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1EB2A5DB1B5543B2004BF07B = {
+			isa = PBXGroup;
+			children = (
+				1EB2A5EB1B5543B3004BF07B /* pexViewer */,
+				1EB2A5E61B5543B3004BF07B /* Frameworks */,
+				1EB2A5E51B5543B3004BF07B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EB2A5E51B5543B3004BF07B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EB2A5E41B5543B3004BF07B /* pexViewer.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EB2A5E61B5543B3004BF07B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E7FECD01B55B483007B7428 /* libz.dylib */,
+				1EB2A5E71B5543B3004BF07B /* AppKit.framework */,
+				1EB2A5E91B5543B3004BF07B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EB2A5EB1B5543B3004BF07B /* pexViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1E7FECCB1B55B0AF007B7428 /* Confetti.pex */,
+				1E7FECC71B55AD65007B7428 /* TBXML */,
+				1E7FEC9D1B554D95007B7428 /* XCode Headers */,
+				1E7FECD91B568E46007B7428 /* Other */,
+				1EB2A5F01B5543B3004BF07B /* pexViewerPlugIn.h */,
+				1EB2A5F11B5543B3004BF07B /* pexViewerPlugIn.m */,
+				1E7FECD61B55BB63007B7428 /* popoverViewController.h */,
+				1E7FECD71B55BB63007B7428 /* popoverViewController.m */,
+				1E7FECE31B5736F4007B7428 /* Resources */,
+				1EB2A5EC1B5543B3004BF07B /* Supporting Files */,
+			);
+			path = pexViewer;
+			sourceTree = "<group>";
+		};
+		1EB2A5EC1B5543B3004BF07B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EB2A5ED1B5543B3004BF07B /* Info.plist */,
+				1EB2A5EE1B5543B3004BF07B /* pexViewer.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EB2A5E31B5543B2004BF07B /* pexViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EB2A5F81B5543B3004BF07B /* Build configuration list for PBXNativeTarget "pexViewer" */;
+			buildPhases = (
+				1EB2A5E01B5543B2004BF07B /* Sources */,
+				1EB2A5E11B5543B2004BF07B /* Resources */,
+				1EB2A5E21B5543B2004BF07B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pexViewer;
+			productName = pexViewer;
+			productReference = 1EB2A5E41B5543B3004BF07B /* pexViewer.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EB2A5DC1B5543B2004BF07B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Binary Blobs";
+				TargetAttributes = {
+					1EB2A5E31B5543B2004BF07B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 1EB2A5DF1B5543B2004BF07B /* Build configuration list for PBXProject "pexViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1EB2A5DB1B5543B2004BF07B;
+			productRefGroup = 1EB2A5E51B5543B3004BF07B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EB2A5E31B5543B2004BF07B /* pexViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EB2A5E11B5543B2004BF07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB2A5EF1B5543B3004BF07B /* pexViewer.xcscheme in Resources */,
+				1E7FECCC1B55B0AF007B7428 /* Confetti.pex in Resources */,
+				1E7FECD51B55BA7E007B7428 /* popoverContentView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EB2A5E01B5543B2004BF07B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7FECCA1B55AD73007B7428 /* TBXML.m in Sources */,
+				1EB2A5F21B5543B3004BF07B /* pexViewerPlugIn.m in Sources */,
+				1E5AA28B1B5D9C58009F3A65 /* TBXMLParticleAdditions.m in Sources */,
+				1E7FECCF1B55B3F0007B7428 /* NSDataAdditions.m in Sources */,
+				1E7FECDC1B568E62007B7428 /* NSObject+Blocks.m in Sources */,
+				1EB2A5F51B5543B3004BF07B /* NSObject_Extension.m in Sources */,
+				1E7FECD81B55BB63007B7428 /* popoverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EB2A5F61B5543B3004BF07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		1EB2A5F71B5543B3004BF07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		1EB2A5F91B5543B3004BF07B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = pexViewer/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		1EB2A5FA1B5543B3004BF07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = pexViewer/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EB2A5DF1B5543B2004BF07B /* Build configuration list for PBXProject "pexViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB2A5F61B5543B3004BF07B /* Debug */,
+				1EB2A5F71B5543B3004BF07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EB2A5F81B5543B3004BF07B /* Build configuration list for PBXNativeTarget "pexViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB2A5F91B5543B3004BF07B /* Debug */,
+				1EB2A5FA1B5543B3004BF07B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EB2A5DC1B5543B2004BF07B /* Project object */;
+}

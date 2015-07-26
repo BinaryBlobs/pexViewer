@@ -6,8 +6,9 @@ PEX files are an XML export format of [Particle Designer 2](https://71squared.co
 
 ## Features
 
-- Preview of particle PNG
+- Preview of embedded Base64 particle PNG
 - Display of a subset of particle attributes
+- Save embedded Base64 particle PNG to file
 - More to come...
 
 ![PexViewer](https://raw.githubusercontent.com/BinaryBlobs/pexViewer/master/screenshots/PexViewer_XCode6_PlugIn.png)

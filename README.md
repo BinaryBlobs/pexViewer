@@ -2,7 +2,7 @@
 
 Particle Emitter - PEX File - viewer plug-in for Xcode 6+
 
-PEX files are an XML export format of ![Particle Designer 2](https://71squared.com/particledesigner)
+PEX files are an XML export format of ![Particle Designer 2](http://71squared.com/particledesigner/)
 
 ## Features
 
